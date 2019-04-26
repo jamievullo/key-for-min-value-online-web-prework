@@ -9,12 +9,12 @@ require "pry"
   binding.pry 
     name_hash.each do |key, value|
                
-    if value < min_value   
-      min_value = 
-      min_key = 
+      if value < min_value   
+        min_value = 
+        min_key = 
   
-end  
-  end 
+      end  
+    end 
   return min_key
 end
 
