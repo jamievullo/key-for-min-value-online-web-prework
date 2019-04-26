@@ -14,7 +14,7 @@ require "pry"
         min_key = 
   
       end  
-    
+    return min_key
     end 
   
 end
